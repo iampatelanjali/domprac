@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box" name="jsdiv">this is div</div>
+
+    <p id="para">this is a simple para</p>
+
+
+    <script>
+
+
+let div = document.querySelector("div")
+
+console.log(div)
+
+
+let id = div.getAttribute("id")
+
+console.log(id)
+
+
+
+let name= div.getAttribute("name")
+
+console.log(name);
+
+
+let para =document.querySelector("para")
+
+console.log(para.setAttribute("id","p"))
+
+
+    </script>
+</body>
+</html>
